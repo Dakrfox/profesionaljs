@@ -1,0 +1,27 @@
+{
+  "name": "platzi_media_player",
+  "version": "1.0.0",
+  "description": "Project of Profesional JS by Platzi",
+  "main": "index.js",
+  "scripts": {
+    "start":"live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Relibarion/profesionaljs.git"
+  },
+  "keywords": [
+    "media",
+    "player",
+    "platzi"
+  ],
+  "author": "Nicolas Martinez (Dakrfox)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Relibarion/profesionaljs/issues"
+  },
+  "homepage": "https://github.com/Relibarion/profesionaljs#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

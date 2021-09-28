@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>PlatziMediaPlayer.js</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>PlatziMediaPlayer.js</h1>
+      <p>An extensible media player.</p>
+    </header>
+
+    <main class="container">
+      <video class="movie">
+        <source src="./BigBuckBunny.mp4" />
+      </video>
+
+      <button>Play/Pause</button>
+    </main>
+    // Async/defer are not used because the script is called at the end of the body so it's the DOM last operation 
+    <script src="./index.js"></script>
+  </body>
+</html>
